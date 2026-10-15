@@ -5,22 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Kohei Kurahara の研究者ウェブサイト。名古屋大学 KMI・日本学術振興会特別研究員（PD）。宇宙磁場、銀河団、電波・X線観測、電波望遠鏡の開発。"
+      content="Kohei Kurahara — 名古屋大学KMI・日本学術振興会特別研究員（PD）。宇宙磁場、銀河団、電波・X線観測。"
     />
-    <meta name="theme-color" content="#f6f5f0" />
+    <meta name="theme-color" content="#ffffff" />
     <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="Kohei Kurahara — Radio Astronomy & Cosmic Magnetism"
-    />
+    <meta property="og:title" content="Kohei Kurahara | Astrophysics" />
     <meta
       property="og:description"
-      content="電波とX線で、見えない宇宙を読み解く。名古屋大学 KMI・Kohei Kurahara の研究と活動。"
+      content="Kohei Kurahara の研究、経歴、論文、連絡先。"
     />
     <meta property="og:url" content="https://kurahrkh.github.io/" />
-    <title>Kohei Kurahara — Radio Astronomy & Cosmic Magnetism</title>
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="canonical" href="https://kurahrkh.github.io/" />
+    <title>Kohei Kurahara | Astrophysics</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
@@ -28,10 +25,8 @@
     <a class="skip-link" href="#main">本文へ移動</a>
     <header class="site-header">
       <div class="header-inner">
-        <a class="wordmark" href="#home" aria-label="Kohei Kurahara ホーム"
-          >Kohei Kurahara<span class="wordmark-dot">.</span></a
-        >
-        <button
+        <a class="wordmark" href="index.html">Kohei Kurahara</a
+        ><button
           class="menu-toggle"
           type="button"
           aria-controls="navigation"
@@ -44,639 +39,204 @@
           class="navigation"
           aria-label="メインナビゲーション"
         >
-          <a href="#about">About</a><a href="#research">Research</a
-          ><a href="#publications">Publications</a
-          ><a class="nav-contact" href="#contact"
-            >Contact <span aria-hidden="true">↗</span></a
-          >
+          <a href="index.html" aria-current="page">About</a
+          ><a href="research.html">Research</a
+          ><a href="publications.html">Publications</a><a href="cv.html">CV</a
+          ><a href="index.html#contact">Contact</a>
         </nav>
       </div>
     </header>
     <main id="main">
-      <section class="hero container" id="home" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow">
-            <span class="small-dot" aria-hidden="true"></span> RADIO ASTRONOMY &
-            COSMIC MAGNETISM
-          </p>
-          <h1 id="hero-title">
-            見えない宇宙を、<br /><span class="title-accent">読み解く。</span>
-          </h1>
-          <p class="hero-description">
-            電波と X 線から探る、宇宙の磁場と乱流。<br />銀河と銀河団の進化を、観測からひもときます。
-          </p>
-          <div class="hero-profile">
-            <span>Kohei Kurahara, Ph.D.</span>
-            <p>JSPS Research Fellow · KMI, Nagoya University</p>
-          </div>
-          <a class="text-link hero-link" href="#research"
-            >研究について
-            <span class="link-arrow" aria-hidden="true">↗</span></a
-          >
-        </div>
-        <figure
-          class="hero-art"
-          aria-label="磁力線を思わせる曲線が交差する、宇宙磁場をモチーフにした概念イラスト"
-        >
-          <div class="art-topline" aria-hidden="true">
-            <span>EXPLORING THE INVISIBLE</span><span>FIG. 01</span>
-          </div>
-          <svg
-            class="orbital"
-            viewBox="0 0 520 460"
-            aria-hidden="true"
-            focusable="false"
-          >
-            <defs>
-              <pattern
-                id="grid"
-                width="28"
-                height="28"
-                patternUnits="userSpaceOnUse"
-              >
-                <path
-                  d="M28 0H0V28"
-                  fill="none"
-                  stroke="#9faeaa"
-                  stroke-width=".5"
-                  opacity=".3"
-                />
-              </pattern>
-              <radialGradient id="wash">
-                <stop offset="0" stop-color="#d1dfd7" stop-opacity=".85" />
-                <stop offset="1" stop-color="#e9ede5" stop-opacity="0" />
-              </radialGradient>
-              <linearGradient id="sphere" x1="0" y1="0" x2="1" y2="1">
-                <stop stop-color="#b5cbc3" />
-                <stop offset=".5" stop-color="#6e9b8e" />
-                <stop offset="1" stop-color="#24574e" />
-              </linearGradient>
-            </defs>
-            <rect x="36" y="20" width="448" height="392" fill="url(#grid)" />
-            <circle cx="260" cy="223" r="195" fill="url(#wash)" />
-            <path
-              d="M36 223h448M260 20v392"
-              stroke="#7d9990"
-              stroke-width=".7"
-              stroke-dasharray="3 6"
-              opacity=".6"
-            />
-            <circle
-              cx="260"
-              cy="223"
-              r="139"
-              fill="none"
-              stroke="#a8bbb1"
-              stroke-width=".7"
-            />
-            <circle
-              cx="260"
-              cy="223"
-              r="181"
-              fill="none"
-              stroke="#a8bbb1"
-              stroke-width=".6"
-              stroke-dasharray="2 8"
-            />
-            <ellipse
-              cx="260"
-              cy="223"
-              rx="204"
-              ry="69"
-              transform="rotate(-35 260 223)"
-              fill="none"
-              stroke="#38675c"
-              stroke-width="1.25"
-            />
-            <ellipse
-              cx="260"
-              cy="223"
-              rx="183"
-              ry="89"
-              transform="rotate(42 260 223)"
-              fill="none"
-              stroke="#7f9c8e"
-              stroke-width="1"
-            />
-            <ellipse
-              cx="260"
-              cy="223"
-              rx="70"
-              ry="176"
-              transform="rotate(17 260 223)"
-              fill="none"
-              stroke="#9bb0a3"
-              stroke-width=".9"
-            />
-            <circle cx="260" cy="223" r="56" fill="url(#sphere)" />
-            <path
-              d="M208 208c28 20 65 25 106 12"
-              fill="none"
-              stroke="#ecf1e8"
-              stroke-width=".7"
-              opacity=".5"
-            />
-            <ellipse
-              cx="260"
-              cy="223"
-              rx="204"
-              ry="69"
-              transform="rotate(-35 260 223)"
-              fill="none"
-              stroke="#38675c"
-              stroke-width="1.25"
-              stroke-dasharray="310 1000"
-              stroke-dashoffset="-350"
-            />
-            <circle cx="416" cy="112" r="7" fill="#bc593e" />
-            <circle cx="120" cy="117" r="4" fill="#426c5e" />
-            <circle cx="293" cy="375" r="4" fill="#426c5e" />
-            <path
-              d="M421 106l20-26h36M114 112L88 88H47M298 378l24 27h56"
-              fill="none"
-              stroke="#9aaba0"
-              stroke-width=".8"
-            />
-            <g
-              fill="#6c8379"
-              font-family="monospace"
-              font-size="9"
-              letter-spacing="1"
-            >
-              <text x="438" y="72">FIELD</text>
-              <text x="46" y="80">PLASMA</text>
-              <text x="326" y="421">TURBULENCE</text>
-            </g>
-            <g stroke="#759184" stroke-width="1">
-              <path d="M36 28v-8h8M476 20h8v8M36 404v8h8M476 412h8v-8" />
-            </g>
-          </svg>
-          <figcaption>
-            <span>Cosmic magnetism, beyond what we can see.</span
-            ><span class="art-plus" aria-hidden="true">＋</span>
-          </figcaption>
-        </figure>
-        <div class="hero-bottom">
-          <span>NAGOYA, JAPAN / OBSERVATIONAL ASTROPHYSICS</span
-          ><a href="#about"
-            >SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a
-          >
-        </div>
-      </section>
-
-      <section class="section" id="about" aria-labelledby="about-title">
-        <div class="container section-layout">
-          <div class="section-label">
-            <span class="section-number">01</span>
-            <h2 id="about-title">About</h2>
-            <span class="section-ja">プロフィール</span>
-          </div>
-          <div class="section-body">
-            <div class="about-body">
-              <p class="large-copy">
-                宇宙を観る。<br />その仕組みを考える。<br />観測を支える技術をつくる。
-              </p>
-              <div class="about-details">
-                <h3 class="profile-name">Kohei Kurahara <span>Ph.D.</span></h3>
-                <p class="profile-role">日本学術振興会 特別研究員（PD）</p>
-                <p class="affiliation">
-                  名古屋大学<br />素粒子宇宙起源研究所（KMI）
-                </p>
-                <p class="body-copy">
-                  銀河・銀河団における磁場、宇宙線、乱流を観測的に研究しています。電波干渉計による偏波・広帯域観測と
-                  XRISM の X
-                  線分光を組み合わせ、宇宙の熱的・非熱的な現象をつなぐことを目指しています。電波望遠鏡の性能評価や観測装置の開発にも取り組んできました。
-                </p>
-                <div class="profile-links">
-                  <a
-                    href="https://orcid.org/0000-0003-2955-1239"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >ORCID ↗<span class="sr-only">（新しいタブ）</span></a
-                  ><a
-                    href="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-25KJ0162/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >KAKEN ↗<span class="sr-only">（新しいタブ）</span></a
-                  ><a
-                    href="https://github.com/kurahrkh"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >GitHub ↗<span class="sr-only">（新しいタブ）</span></a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="career">
-              <h3>Background <span>経歴</span></h3>
-              <ol class="timeline">
-                <li>
-                  <time>2025.04 — 現在</time>
-                  <div>
-                    <strong>日本学術振興会 特別研究員（PD）</strong>
-                    <p>名古屋大学 素粒子宇宙起源研究所</p>
-                  </div>
-                </li>
-                <li>
-                  <time>2021.10 — 2025.03</time>
-                  <div>
-                    <strong>研究員 / Project Researcher</strong>
-                    <p>国立天文台 水沢 VLBI 観測所 SKA1 推進グループ</p>
-                  </div>
-                </li>
-                <li>
-                  <time>2021.05 — 2021.09</time>
-                  <div>
-                    <strong>研究員 / Project Researcher</strong>
-                    <p>国立天文台 水沢 VLBI 観測所 ALMA プロジェクト</p>
-                  </div>
-                </li>
-                <li>
-                  <time>2021</time>
-                  <div>
-                    <strong>博士（理学）取得</strong>
-                    <p>
-                      鹿児島大学大学院 理工学研究科<br />銀河磁場ベクトルマップに基づく銀河磁場構造の観測的研究
-                    </p>
-                  </div>
-                </li>
-              </ol>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section
-        class="section research-section"
-        id="research"
-        aria-labelledby="research-title"
+        class="profile-overview container"
+        id="about"
+        aria-labelledby="profile-title"
       >
-        <div class="container">
-          <div class="section-layout research-intro">
-            <div class="section-label">
-              <span class="section-number">02</span>
-              <h2 id="research-title">Research</h2>
-              <span class="section-ja">研究テーマ</span>
-            </div>
-            <div class="section-body section-intro">
-              <h3>電波から、X 線へ。<br />観測から、物理へ。</h3>
-              <p>
-                磁場と宇宙線がつくる非熱的な宇宙を、<br />多波長の観測と装置開発から探っています。
-              </p>
-            </div>
-          </div>
-          <div class="research-grid">
-            <article class="research-card">
-              <figure>
-                <img
-                  src="assets/abell1060.png"
-                  alt="Abell 1060 の電波・X線・可視光の合成画像。破線の楕円が広がった電波源 Flying Fox を示す。"
-                  width="894"
-                  height="864"
-                  loading="lazy"
-                />
-                <figcaption>Abell 1060 · Kurahara et al. (2024)</figcaption>
-              </figure>
-              <div class="research-card-body">
-                <p class="eyebrow">01 / GALAXY CLUSTERS</p>
-                <h3>銀河団の磁場・宇宙線・乱流</h3>
-                <p>
-                  銀河団に広がる淡い電波放射や、特異な形をした電波銀河を調べています。電波スペクトルと
-                  XRISM
-                  による高温ガスの分光を結びつけ、粒子加速やガスの運動を探ります。
-                </p>
-                <a
-                  class="text-link"
-                  href="https://doi.org/10.1093/pasj/psae011"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Flying Fox の発見論文 <span aria-hidden="true">↗</span
-                  ><span class="sr-only">（新しいタブ）</span></a
-                >
-              </div>
-            </article>
-            <article class="research-card">
-              <figure>
-                <img
-                  src="assets/ngc6946.png"
-                  alt="NGC 6946 の磁場ベクトルマップ。銀河円盤上の磁場の方向を赤と青の矢印で示す。"
-                  width="919"
-                  height="930"
-                  loading="lazy"
-                />
-                <figcaption>NGC 6946 · Kurahara & Nakanishi (2019)</figcaption>
-              </figure>
-              <div class="research-card-body">
-                <p class="eyebrow">02 / COSMIC MAGNETISM</p>
-                <h3>銀河の磁場構造を描く</h3>
-                <p>
-                  電波偏波とファラデー回転を使い、近傍銀河の大規模な磁場構造を復元しています。ASKAP
-                  の偏波サーベイ POSSUM
-                  にも参加し、銀河磁場の理解を広げています。
-                </p>
-                <a
-                  class="text-link"
-                  href="https://doi.org/10.3390/galaxies7020059"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >磁場ベクトル構造の論文 <span aria-hidden="true">↗</span
-                  ><span class="sr-only">（新しいタブ）</span></a
-                >
-              </div>
-            </article>
-            <article class="research-card">
-              <figure>
-                <img
-                  src="assets/usuda-beam.png"
-                  alt="臼田64mアンテナの1.4 GHzにおけるビームパターン。方位角と仰角のずれに対する応答を示す。"
-                  width="1248"
-                  height="1074"
-                  loading="lazy"
-                />
-                <figcaption>Usuda 64-m · Beam pattern at 1.4 GHz</figcaption>
-              </figure>
-              <div class="research-card-body">
-                <p class="eyebrow">03 / INSTRUMENTATION</p>
-                <h3>観測を支える技術をつくる</h3>
-                <p>
-                  臼田 64m アンテナの性能評価、VERA の L-band
-                  システムの開発・検証、FPGA
-                  分光計に携わってきました。観測から較正・解析までの経験を、次世代の電波天文学につなげます。
-                </p>
-                <a
-                  class="text-link"
-                  href="https://doi.org/10.46620/URSIGASS.2023.0698.NZQX9562"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >L-band VLBI 開発の発表 <span aria-hidden="true">↗</span
-                  ><span class="sr-only">（新しいタブ）</span></a
-                >
-              </div>
-            </article>
-          </div>
-          <div class="facility-strip">
-            <span>OBSERVATIONAL EXPERIENCE</span>
+        <div class="profile-heading">
+          <h1 id="profile-title">Kohei Kurahara <span>Ph.D.</span></h1>
+          <p class="position">
+            日本学術振興会 特別研究員（PD）<br />名古屋大学
+            素粒子宇宙起源研究所（KMI）
+          </p>
+        </div>
+        <div class="profile-layout">
+          <div class="biography">
             <p>
-              uGMRT <span>·</span> VLA <span>·</span> ATCA
-              <span>·</span> MeerKAT <span>·</span> ALMA <span>·</span> XRISM
+              銀河・銀河団の磁場や宇宙線、乱流を観測的に研究しています。電波干渉計による偏波・広帯域観測と
+              XRISM の X
+              線分光を組み合わせ、銀河団での粒子加速や高温ガスの運動を調べています。
+            </p>
+            <p>
+              2025 年から名古屋大学 KMI
+              に所属しています。それ以前は、国立天文台の水沢 VLBI 観測所で ALMA
+              プロジェクト、SKA1
+              推進グループの研究員を務めました。電波天文学の研究に加え、電波望遠鏡の性能評価や受信・分光システムの開発にも取り組んできました。
+            </p>
+            <p class="english-summary" lang="en">
+              I am a JSPS Research Fellow at the Kobayashi–Maskawa Institute for
+              the Origin of Particles and the Universe (KMI), Nagoya University.
+              My research focuses on cosmic magnetism and non-thermal processes
+              in galaxies and galaxy clusters, using radio observations and
+              X-ray spectroscopy.
+            </p>
+            <p class="inline-links">
+              <a href="research.html">研究内容</a><span>·</span
+              ><a href="cv.html">経歴</a><span>·</span
+              ><a href="publications.html">論文・著作</a>
             </p>
           </div>
-        </div>
-      </section>
-
-      <section
-        class="section"
-        id="publications"
-        aria-labelledby="publications-title"
-      >
-        <div class="container section-layout">
-          <div class="section-label">
-            <span class="section-number">03</span>
-            <h2 id="publications-title">Publications</h2>
-            <span class="section-ja">主な論文・著作</span>
-          </div>
-          <div class="section-body">
-            <div class="publication-heading">
-              <h3>研究の記録。</h3>
-              <span class="small-label">SELECTED PUBLICATIONS</span>
-            </div>
-            <ol class="publication-list">
-              <li>
-                <span class="pub-year">2026</span>
-                <div>
-                  <span class="pub-type">BOOK CHAPTER · SKA SCIENCE BOOK</span>
-                  <h4>
-                    <a
-                      href="https://arxiv.org/abs/2607.06346"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Unravelling Turbulence and Magnetic Fields in Galaxy
-                      Clusters with SKA and XRISM
-                      <span aria-hidden="true">↗</span
-                      ><span class="sr-only">（新しいタブ）</span></a
-                    >
-                  </h4>
-                  <p>
-                    <strong>K. Kurahara</strong>, T. Akahori, A. Seta, et al.
-                  </p>
-                  <p class="pub-journal">
-                    Advancing Astrophysics with the SKA II · arXiv:2607.06346
-                  </p>
-                </div>
-              </li>
-              <li>
-                <span class="pub-year">2026</span>
-                <div>
-                  <span class="pub-type">JOURNAL ARTICLE</span>
-                  <h4>
-                    <a
-                      href="https://doi.org/10.1093/pasj/psaf128"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Origin and evolution of the Ω structure in the head-tail
-                      radio galaxy of Abell 3322
-                      <span aria-hidden="true">↗</span
-                      ><span class="sr-only">（新しいタブ）</span></a
-                    >
-                  </h4>
-                  <p>
-                    <strong>K. Kurahara</strong>, T. Akahori, T. Ohmura, et al.
-                  </p>
-                  <p class="pub-journal">
-                    Publications of the Astronomical Society of Japan, 78(1),
-                    137–150
-                  </p>
-                </div>
-              </li>
-              <li>
-                <span class="pub-year">2024</span>
-                <div>
-                  <span class="pub-type">JOURNAL ARTICLE</span>
-                  <h4>
-                    <a
-                      href="https://doi.org/10.1093/pasj/psae011"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Discovery of diffuse radio source in Abell 1060
-                      <span aria-hidden="true">↗</span
-                      ><span class="sr-only">（新しいタブ）</span></a
-                    >
-                  </h4>
-                  <p>
-                    <strong>K. Kurahara</strong>, T. Akahori, A. Oki, Y. Omiya,
-                    and K. Nakazawa
-                  </p>
-                  <p class="pub-journal">
-                    Publications of the Astronomical Society of Japan, 76(2),
-                    L8–L13
-                  </p>
-                </div>
-              </li>
-              <li>
-                <span class="pub-year">2023</span>
-                <div>
-                  <span class="pub-type">JOURNAL ARTICLE</span>
-                  <h4>
-                    <a
-                      href="https://doi.org/10.1093/pasj/psac098"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Diffuse radio source candidate in CIZA J1358.9−4750
-                      <span aria-hidden="true">↗</span
-                      ><span class="sr-only">（新しいタブ）</span></a
-                    >
-                  </h4>
-                  <p>
-                    <strong>K. Kurahara</strong>, T. Akahori, R. Kale, et al.
-                  </p>
-                  <p class="pub-journal">
-                    Publications of the Astronomical Society of Japan, 75(Suppl.
-                    1), S138–S153
-                  </p>
-                </div>
-              </li>
-              <li>
-                <span class="pub-year">2021</span>
-                <div>
-                  <span class="pub-type">JOURNAL ARTICLE</span>
-                  <h4>
-                    <a
-                      href="https://doi.org/10.1093/pasj/psaa116"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Large-scale magnetic field structure of NGC 3627 based on
-                      a magnetic vector map <span aria-hidden="true">↗</span
-                      ><span class="sr-only">（新しいタブ）</span></a
-                    >
-                  </h4>
-                  <p>
-                    <strong>K. Kurahara</strong>, H. Nakanishi, and Y. Kudoh
-                  </p>
-                  <p class="pub-journal">
-                    Publications of the Astronomical Society of Japan, 73(1),
-                    220–229
-                  </p>
-                </div>
-              </li>
-              <li>
-                <span class="pub-year">2019</span>
-                <div>
-                  <span class="pub-type">JOURNAL ARTICLE</span>
-                  <h4>
-                    <a
-                      href="https://doi.org/10.3390/galaxies7020059"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Magnetic Field Vector Structure of NGC6946
-                      <span aria-hidden="true">↗</span
-                      ><span class="sr-only">（新しいタブ）</span></a
-                    >
-                  </h4>
-                  <p><strong>K. Kurahara</strong> and H. Nakanishi</p>
-                  <p class="pub-journal">Galaxies, 7(2), 59</p>
-                </div>
-              </li>
-            </ol>
-            <a
-              class="text-link more-publications"
-              href="https://orcid.org/0000-0003-2955-1239"
-              target="_blank"
-              rel="noopener noreferrer"
-              >ORCID で研究業績を見る
-              <span class="link-arrow" aria-hidden="true">↗</span
-              ><span class="sr-only">（新しいタブ）</span></a
-            >
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="section outreach-section"
-        id="outreach"
-        aria-labelledby="outreach-title"
-      >
-        <div class="container section-layout">
-          <div class="section-label">
-            <span class="section-number">04</span>
-            <h2 id="outreach-title">Outreach</h2>
-            <span class="section-ja">研究紹介</span>
-          </div>
-          <div class="section-body">
-            <h3 class="outreach-title">研究を、もっと身近に。</h3>
-            <div class="news-list">
-              <a
-                href="https://www.nao.ac.jp/news/science/2024/20240408-mizusawa.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><time datetime="2024-04-08">2024.04.08</time
-                ><span
-                  >うみへび座銀河団に見つかった謎の電波放射<br /><small
-                    >国立天文台 研究成果紹介</small
-                  ></span
-                ><span aria-hidden="true">↗</span
-                ><span class="sr-only">（新しいタブ）</span></a
-              ><a
-                href="https://www.nao.ac.jp/news/science/2023/20230615-mizusawa.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><time datetime="2023-06-15">2023.06.15</time
-                ><span
-                  >合体初期の銀河団で見つかった淡い電波放射<br /><small
-                    >国立天文台 研究成果紹介</small
-                  ></span
-                ><span aria-hidden="true">↗</span
-                ><span class="sr-only">（新しいタブ）</span></a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="contact-section"
-        id="contact"
-        aria-labelledby="contact-title"
-      >
-        <div class="container contact-inner">
-          <div>
-            <p class="eyebrow">LET’S CONNECT</p>
-            <h2 id="contact-title">宇宙の話を、<br />ここから。</h2>
-          </div>
-          <div class="contact-links">
-            <p>
-              研究や共同研究についてのご連絡は、<br />こちらのメールアドレスまで。
-            </p>
-            <a
-              class="contact-email"
-              href="mailto:kurahara.kohei.i7@f.mail.nagoya-u.ac.jp"
-              >kurahara.kohei.i7@f.mail.nagoya-u.ac.jp
-              <span aria-hidden="true">↗</span></a
-            >
-            <div class="contact-social">
+          <aside class="profile-aside" aria-label="研究分野と外部プロフィール">
+            <h2>Research interests</h2>
+            <ul>
+              <li>Cosmic magnetism</li>
+              <li>Galaxy clusters</li>
+              <li>Radio polarimetry</li>
+              <li>Radio & X-ray astronomy</li>
+              <li>Radio instrumentation</li>
+            </ul>
+            <div class="external-profiles">
               <a
                 href="https://orcid.org/0000-0003-2955-1239"
                 target="_blank"
                 rel="noopener noreferrer"
-                >ORCID ↗<span class="sr-only">（新しいタブ）</span></a
+                >ORCID <span aria-hidden="true">↗</span
+                ><span class="sr-only">（新しいタブ）</span></a
+              ><a
+                href="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-25KJ0162/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >KAKEN <span aria-hidden="true">↗</span
+                ><span class="sr-only">（新しいタブ）</span></a
               ><a
                 href="https://github.com/kurahrkh"
                 target="_blank"
                 rel="noopener noreferrer"
-                >GitHub ↗<span class="sr-only">（新しいタブ）</span></a
+                >GitHub <span aria-hidden="true">↗</span
+                ><span class="sr-only">（新しいタブ）</span></a
               >
             </div>
-          </div>
+          </aside>
         </div>
+      </section>
+      <section class="home-section container" aria-labelledby="selected-title">
+        <div class="section-heading">
+          <h2 id="selected-title">Selected publications</h2>
+          <a href="publications.html">一覧を見る →</a>
+        </div>
+        <ol class="publication-list">
+          <li>
+            <span class="pub-year">2026</span>
+            <div>
+              <span class="pub-type">JOURNAL ARTICLE</span>
+              <h4>
+                <a
+                  href="https://doi.org/10.1093/pasj/psaf128"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Origin and evolution of the Ω structure in the head-tail
+                  radio galaxy of Abell 3322 <span aria-hidden="true">↗</span
+                  ><span class="sr-only">（新しいタブ）</span></a
+                >
+              </h4>
+              <p><strong>K. Kurahara</strong>, T. Akahori, T. Ohmura, et al.</p>
+              <p class="pub-journal">
+                Publications of the Astronomical Society of Japan, 78(1),
+                137–150
+              </p>
+            </div>
+          </li>
+          <li>
+            <span class="pub-year">2024</span>
+            <div>
+              <span class="pub-type">JOURNAL ARTICLE</span>
+              <h4>
+                <a
+                  href="https://doi.org/10.1093/pasj/psae011"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Discovery of diffuse radio source in Abell 1060
+                  <span aria-hidden="true">↗</span
+                  ><span class="sr-only">（新しいタブ）</span></a
+                >
+              </h4>
+              <p>
+                <strong>K. Kurahara</strong>, T. Akahori, A. Oki, Y. Omiya, and
+                K. Nakazawa
+              </p>
+              <p class="pub-journal">
+                Publications of the Astronomical Society of Japan, 76(2), L8–L13
+              </p>
+            </div>
+          </li>
+          <li>
+            <span class="pub-year">2023</span>
+            <div>
+              <span class="pub-type">JOURNAL ARTICLE</span>
+              <h4>
+                <a
+                  href="https://doi.org/10.1093/pasj/psac098"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Diffuse radio source candidate in CIZA J1358.9−4750
+                  <span aria-hidden="true">↗</span
+                  ><span class="sr-only">（新しいタブ）</span></a
+                >
+              </h4>
+              <p><strong>K. Kurahara</strong>, T. Akahori, R. Kale, et al.</p>
+              <p class="pub-journal">
+                Publications of the Astronomical Society of Japan, 75(Suppl. 1),
+                S138–S153
+              </p>
+            </div>
+          </li>
+        </ol>
+      </section>
+      <section class="home-section container" aria-labelledby="news-title">
+        <h2 id="news-title">Research in the news</h2>
+        <div class="news-list">
+          <a
+            href="https://www.nao.ac.jp/news/science/2024/20240408-mizusawa.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><time datetime="2024-04-08">2024.04.08</time
+            ><span
+              >うみへび座銀河団に見つかった謎の電波放射<br /><small
+                >国立天文台 研究成果紹介</small
+              ></span
+            ><span aria-hidden="true">↗</span
+            ><span class="sr-only">（新しいタブ）</span></a
+          ><a
+            href="https://www.nao.ac.jp/news/science/2023/20230615-mizusawa.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><time datetime="2023-06-15">2023.06.15</time
+            ><span
+              >合体初期の銀河団で見つかった淡い電波放射<br /><small
+                >国立天文台 研究成果紹介</small
+              ></span
+            ><span aria-hidden="true">↗</span
+            ><span class="sr-only">（新しいタブ）</span></a
+          >
+        </div>
+      </section>
+      <section
+        class="home-section contact-section container"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <h2 id="contact-title">Contact</h2>
+        <p>研究・共同研究についてのご連絡は、メールでお願いします。</p>
+        <a
+          class="contact-email"
+          href="mailto:kurahara.kohei.i7@f.mail.nagoya-u.ac.jp"
+          >kurahara.kohei.i7@f.mail.nagoya-u.ac.jp</a
+        >
       </section>
     </main>
     <footer class="site-footer container">
-      <a class="wordmark" href="#home"
-        >Kohei Kurahara<span class="wordmark-dot">.</span></a
-      >
       <p>© <span id="year">2026</span> Kohei Kurahara</p>
-      <a class="back-top" href="#home"
-        >BACK TO TOP <span aria-hidden="true">↑</span></a
-      >
+      <p>Last updated: October 2026</p>
+      <a href="#main">Back to top ↑</a>
     </footer>
   </body>
 </html>

@@ -20,5 +20,3 @@
 | `assets/abell1060.png`  | `figures/past-research/Abell1060_FF.png`        | Abell 1060。電波（緑）、X線（青）、可視光（白）。Kurahara et al. 2024, https://doi.org/10.1093/pasj/psae011 |
 | `assets/ngc6946.png`    | `figures/past-research/NGC6946_Bvec.png`        | NGC 6946の磁場ベクトル。Kurahara & Nakanishi 2019, https://doi.org/10.3390/galaxies7020059                  |
 | `assets/usuda-beam.png` | `figures/past-research/usd_pattern_1400MHz.png` | 臼田64mアンテナの1.4 GHzビームパターン。指定資料の研究概要掲載図。                                          |
-
-トップのSVGは宇宙磁場をモチーフに作成した概念イラストで、観測データやシミュレーション結果ではありません。

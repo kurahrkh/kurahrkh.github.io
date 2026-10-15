@@ -12,9 +12,12 @@ python3 -m http.server 8000 --bind 127.0.0.1
 
 ## 更新箇所
 
-- `index.html`: プロフィール、経歴、研究紹介、代表論文、連絡先、SEO用の説明。
+- `index.html`: 自己紹介、代表論文の抜粋、研究成果紹介、連絡先。
+- `research.html`: 研究紹介と図。
+- `publications.html`: 代表論文・著作。
+- `cv.html`: 職歴、学歴、研究費。
 - `style.css`: 色、文字、レイアウト、画面幅ごとの表示。
-- `script.js`: モバイルメニュー、現在のセクション表示。
+- `script.js`: モバイルメニュー。
 - `assets/`: 研究図。出典は `CONTENT_SOURCES.md` に記載。
 
 GitHub Pages の公開対象ブランチへ反映し、Pages の設定に従って公開します。
