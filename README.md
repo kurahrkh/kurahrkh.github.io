@@ -12,7 +12,7 @@ python3 -m http.server 8000 --bind 127.0.0.1
 
 ## 更新箇所
 
-- `index.html`: 自己紹介、代表論文の抜粋、研究成果紹介、連絡先。
+- `index.html`: 自己紹介、代表論文の抜粋、研究成果紹介。
 - `research.html`: 研究紹介と図。
 - `publications.html`: 代表論文・著作。
 - `cv.html`: 職歴、学歴、研究費。
